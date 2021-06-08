@@ -1,0 +1,22 @@
+In this challenge I use React JS to code. This guideline is about how to start and build the project from source code.
+
+*To start project:
+- run command line: npm install
+-> install library which is help in routing and state management.
+
+- run command line: npm start 
+-> to start project in http://localhost:3000
+
+*To build project:
+- run command line: npm run build 
+-> Builds the app for production to the "build" folder
+
+*To run test for project:
+- I am very sorry that I not write Unit Test in this challenge because I have no experience in writing Unit test in my other jobs before.
+So for me to do it, I will need time to research but I read that you guys hope it won't take much time for this.
+Therefore, I just did manual test coverage for the requirements.
+
+This is the reposity url: https://github.com/quocanh969/axon_tqanh
+
+Thank you and wish you all the best.
+Quoc Anh

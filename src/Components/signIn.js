@@ -10,7 +10,6 @@ class signInComponent extends Component {
 
         const { onReset } = this.props;
         onReset();
-        console.log(this.props);
         
         this.handleSubmit = this.handleSubmit.bind(this);
     }
@@ -23,7 +22,6 @@ class signInComponent extends Component {
         const { onSignIn } = this.props;
         onSignIn(username, password, () => {
             if(this.props.history.location.state) {
-                console.log("hehehe");
                 this.props.history.goBack();
             } else {
                 this.props.history.push('/');
